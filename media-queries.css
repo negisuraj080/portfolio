@@ -1,0 +1,154 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+.section-text {
+  max-width: 50%;
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+
+  #experience,
+  .experience-detail-container {
+    margin-top: 2rem;
+  }
+
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+  .section-pic-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-container {
+    margin-top: 0px;
+  }
+
+  section#profile {
+    height: 100vh;
+    max-height: 900px;
+  }
+
+  section#profile {
+    max-height: 700px;
+}
+
+}
+
+@media screen and (min-width: 767px) {
+  
+
+  .section-pic-container {
+    height: auto;
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+  section#about .section-container {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+  }
+  section#about .section-container .section-pic-container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  section#profile {
+    max-height: 700px;
+  }
+  .logo {
+    font-family: "Caveat", cursive;
+    font-size: 3.4rem;
+    font-weight: 700;
+  }
+
+  nav#hamburger-nav {
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .about-container,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+
+  .contact-info-container {
+    margin: 0;
+  }
+
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .experience-sub-title {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 3rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
